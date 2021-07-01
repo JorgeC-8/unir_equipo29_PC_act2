@@ -1,0 +1,66 @@
+\documentclass[11pt,a4paper]{markdown}
+%----------------------------------------------------------------------------------------
+% INFORMACIÓN DEL ARTÍCULO Y METADATOS
+%----------------------------------------------------------------------------------------
+\author{González Trillo Rodolfo Arturo}
+\course{Percepción computacional}
+\activity{Análisis y caracterización de las diferencias entre el sistema cognitivo humano y los sistemas artificiales en una función cognitiva concreta}
+\assignment{2}
+\title{Título}
+\keywords{Inteligencia Artificial}
+\date{\today}
+%----------------------------------------------------------------------------------------
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%PÁGINA DE TÍTULO%%%%%%%%%%%%%%%%%%%%%%%
+    \maketitle
+
+    \begin{abstract}
+       \noindent \textit{
+        La revolución de la Inteligencia Artificial no sólo está ocurriendo en ámbitos industriales o empresariales, también se está extendiendo al ámbito educativo. Un problema aciago de la educación, es el hecho de que cada estudiante es distinto y sin embargo la clase es la misma para todos los que acuden a ella, sin importar sus capacidades. En la actualidad, este problema se ha paliado incluyendo una mayor diversidad de explicaciones y formas de aprendizaje en el aula, pero el éxito de estos enfoques es necesariamente limitado, pues aún subyace el problema de tener a el aula aprendiendo de la misma forma. 
+        }
+   \end{abstract}
+  \vspace{1\baselineskip}
+  \rule{\textwidth}{2pt}\vspace{2pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\indexed{section}{Introducción al contexto de negocio en el que se desarrolla el caso de uso}
+
+\quad Estamos viviendo una revolución, una revolución tan profunda que está cambiando todos los aspectos de nuestras vidas: la revolución de la inteligencia artificial. Entre las muchas áreas que se están transformado vertiginosamente se encuentra el sector educativo. Pronto la imagen del profesor dictando dentro de un aula y docenas de alumnos en sus pupitres dormitando de aburrimiento, pertenecerá a los libros de historia. La revolución promete una educación más individualizada, efectiva, en mejora continua y más relevante. 
+
+\quad Esta propuesta se centra en abordar un problema insidioso, que ha estado en la educación desde que se formó el sistema actual de aulas, profesores y alumnos, y —que a pesar de que se han hecho esfuerzos colosales con resultados muy satisfactorios— aún queda mucho por trabajar, puesto que el problema es la raíz misma de nuestro actual modelo educativo: el hecho de que cada estudiante es distinto, tiene necesidades diferentes e inteligencia distinta, pero aún se enseña a todos los estudiantes con la misma metodología: mismo profesor, mismo clase. La inteligencia artificial, combinada con un esquema híbrido de clases virtuales y clases en el aula, tiene el potencial de resolver este problema: si se tiene una plataforma con una enorme diversidad de contenidos educativos, se puede crear un sistema de recomendaciones automático, que aprenda de cada alumno y le recomiende contenidos educativos de acuerdo a sus preferencias y formas de estudiar, de manera que los resultados que obtenga se optimicen con el tiempo.
+
+\quad Pero antes de describir a detalle nuestra propuesta, primero tenemos que entender de forma breve como se ha diferenciado las formas de aprender de cada estudiante, y además, el panorama actual de las empresas que se dedican a esta área emergente.
+
+\begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{1}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}, fontsize=\scriptsize]
+\PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+\PY{o}{\PYZpc{}}\PY{k}{config} InlineBackend.figure\PYZus{}format = \PYZsq{}png\PYZsq{}
+
+\PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+\PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
+\PY{k+kn}{import} \PY{n+nn}{math} \PY{k}{as} \PY{n+nn}{math}
+\PY{k+kn}{from}  \PY{n+nn}{PIL} \PY{k+kn}{import} \PY{n}{Image}
+\PY{k+kn}{from} \PY{n+nn}{tqdm}\PY{n+nn}{.}\PY{n+nn}{notebook} \PY{k+kn}{import} \PY{n}{tqdm}
+\end{Verbatim}
+\end{tcolorbox}
+
+\begin{figure*}
+\centering
+\includegraphics[width=0.7\textwidth]{figures/logo.png}
+\decoRule
+\caption[Inteligencias múltiples de Gadner]{Esquema de la teoría de las inteligencias múltiples de. }
+\fuente{Adaptada de.}
+\label{fig:8-inteligencias-multiples}
+\end{figure*}
+
+
+\addcontentsline{toc}{section}{Referencias}
+\printbibliography
+
+\end{document}

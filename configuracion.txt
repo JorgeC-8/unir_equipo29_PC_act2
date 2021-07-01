@@ -1,0 +1,15 @@
+#COMANDOS PARA LA CREACIÓN DEL AMBIENTE VIRTUAL.
+python -m venv venv
+.\venv\Scripts\activate
+pip install ipykernel
+python -m ipykernel install --user --name venv
+
+#.gitignore
+venv/
+
+#workspace.code-workspace Settings
+"python.pythonPath": "${workspaceFolder}/venv/Scripts/python"
+
+
+#COMANDO PARA CONVERTIR A LATEX:
+jupyter nbconvert act1.ipynb --to latex

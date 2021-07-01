@@ -1,0 +1,15 @@
+*.docx
+*.png
+*.jpg
+*.pdf
+*.aux
+*.bcf
+*.log
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.pptx
+notebook/venv
+notebook/pictures
