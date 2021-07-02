@@ -11,5 +11,6 @@
 *.bbl
 *.blg
 *.pptx
+*.code-workspace
 notebook/venv
 notebook/pictures
