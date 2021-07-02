@@ -23,7 +23,7 @@ NOTA: la elección de las imágenes es decisión del alumno. Se recomienda que b
 
 ## Iniciando
 
-### Dependencies
+### Dependencias
 
 * Jupyter
 * Matplotlib
